@@ -160,10 +160,7 @@ class _HomePageState extends State<HomePage> {
                                   ),
                               itemBuilder: (context, index) {
                                 return ProductList(
-                                  price: "${filteredProducts[index].price}",
-                                  title: filteredProducts[index].title??"",
-                                  review: "${filteredProducts[index].rating}",
-                                  urlImage: filteredProducts[index].thumbnail??"",
+                                  product: filteredProducts[index],
                                 );
                               },
                             ),
