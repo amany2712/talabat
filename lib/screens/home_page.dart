@@ -46,7 +46,6 @@ class _HomePageState extends State<HomePage> {
           }).toList();
 
     return Scaffold(
-      backgroundColor: Colors.white,
       body: SafeArea(
         child: Padding(
           padding: const EdgeInsets.all(8.0),
@@ -78,7 +77,6 @@ class _HomePageState extends State<HomePage> {
                           Text(
                             "Hello , Ahmed",
                             style: TextStyle(
-                              color: Color(0xFF515151),
                               fontSize: 16,
                             ),
                           ),

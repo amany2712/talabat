@@ -52,7 +52,7 @@ class _AppNavigationBarState extends State<AppNavigationBar> {
         } ,
         currentIndex: currentIndex,
         selectedItemColor: Color(0xFFF55540),
-        unselectedItemColor: Colors.black,
+       // unselectedItemColor: Colors.black,
         backgroundColor: Colors.transparent,
         ),
 
